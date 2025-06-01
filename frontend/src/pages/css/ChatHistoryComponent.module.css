@@ -1,0 +1,24 @@
+.listitem{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    padding-bottom: 0px;
+    list-style: none;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+.listitemimage{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.listitemname_message{
+    display: inline-block;
+}
+.listitemtime{
+    text-align: end;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgba(85, 85, 85, 0.477);
+}

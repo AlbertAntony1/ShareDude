@@ -1,0 +1,17 @@
+.navbarimaglogo{
+    height: 40px;
+}
+.Navbar{
+    background-color: black;
+    height: 65.980px;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 1;
+}
+.NavbarLinks{
+    color: white;
+}
+.NavbarLinks:hover{
+    color: #01499e;
+}

@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=PT+Sans:ital,wght@1,700&family=Playfair+Display&display=swap");
+
+:root {
+  --black: #000000;
+  --logo: #01499e;
+  --bgcolor: #0b60b0;
+  --blue: #40a2d8;
+  --skin-color: rgb(217, 209, 121);
+  --orange: #faaa20;
+}
+body {
+  background-color: var(--bgcolor);
+}
+.pt-sans-bold-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 800;
+  font-style: none;
+}
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: none;
+}
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--orange);
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.Button {
+  background-color: var(--orange);
+  border: #01499e;
+  margin: 0 5px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
