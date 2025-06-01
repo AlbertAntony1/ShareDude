@@ -32,7 +32,7 @@ const FileGet = () => {
   async function checkdata() {
     setCode(inputElement.current.value);
     await axios
-      .post("http://localhost:5000/file-get", {
+      .post("https://sharedude.onrender.com/file-get", {
         data: code,
       })
       .then((response) => {
