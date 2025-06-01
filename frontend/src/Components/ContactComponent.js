@@ -11,7 +11,7 @@ const ContactComponent = () => {
 
   async function sendFeedBack(){
     var data = { Name: NameInputElement.current.value, Message: MessageInputElement.current.value}
-    await axios.post("http://localhost:5000/add-feedback",{data: data}).catch((err)=>console.log(err))
+    await axios.post("https://sharedude.onrender.com/add-feedback",{data: data}).catch((err)=>console.log(err))
   }
 
   return (
