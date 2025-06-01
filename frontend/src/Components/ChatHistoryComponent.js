@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 const ChatHistoryComponent = () => {
   const [chatHistory, SetChatHistory] = useState([]);
   useEffect(() => {
-    axios.get("http://localhost:5000/get-data")
+    axios.get("https://sharedude.onrender.com/get-data")
     .then((response) => {SetChatHistory(response.data);})
     .catch((error) => {console.error("Error fetching chat history:", error);});
   });
