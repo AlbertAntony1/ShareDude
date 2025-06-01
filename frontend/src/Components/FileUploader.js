@@ -24,7 +24,7 @@ const FileUploader = () => {
       formData.append("documents", file);
     });
 
-    const res = await axios.post("http://localhost:5000/upload", formData, {
+    const res = await axios.post("https://sharedude.onrender.com/upload", formData, {
       headers: {
         "Content-Type": "multipart/form-data",
       },
