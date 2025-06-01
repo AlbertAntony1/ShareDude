@@ -15,7 +15,7 @@ const LoginComponent = ({ UpdateNameAndImage }) => {
       var formData = new FormData();
       formData.append("profile-picture", ImageFile);
       await axios
-        .post("http://localhost:5000/profile-picture", formData)
+        .post("https://sharedude.onrender.com/profile-picture", formData)
         .then((res) => SetImage(`../images/profile-picture/${res.data}`))
         .catch((error) => console.error(error));
     }
